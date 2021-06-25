@@ -1,4 +1,4 @@
-var express = require('express');
+let express = require('express');
 let router=express.Router();
 
 router.get('/:id([0-9]{5})/:name', function(req, res){
