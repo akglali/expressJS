@@ -6,5 +6,5 @@ router.get('/:id([0-9]{5})/:name', function(req, res){
 });
 router.get('*',function (req,res) {
     res.send("You ducker this is invalid.")
-})
+});
 module.exports = router;

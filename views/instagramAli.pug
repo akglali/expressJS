@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title=name
+    body
+        if(user)
+            h1 Hi, #{user.name}
+            h1.ali#insta Let'<s></s> go to Ali's perfect Instagram page by clicking that link.
+            a(href= url ,target="_blank") THE LINK
+        else
+            a(href="/sign_up") Sign Up
