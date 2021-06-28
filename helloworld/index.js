@@ -36,4 +36,4 @@ app.use('/content',content);
 app.use('/form',form);
 
 
-app.listen(PORT,()=>console.log(`Express server currently running on port ${PORT}`));
+app.listen(PORT,()=>console.log(`Express server currently running on port ${process.env.PORT || "3000"}`));
